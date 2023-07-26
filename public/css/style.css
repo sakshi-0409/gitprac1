@@ -1,0 +1,137 @@
+
+
+.dec-none{
+    text-decoration-line: none;
+  }
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #a19f9f86; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #aaaaaa; 
+}
+::-webkit-scrollbar:hover {
+  width: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7e7e7e; 
+}
+.opacity-90{
+  opacity: 90%;
+}
+.opacity-95{
+  opacity: 95%;
+}
+body{
+  overflow-x: hidden;
+}
+.heart{
+  font-size: x-large;
+}
+.home-animation{
+  position: relative;
+  animation: mymove 3s ;
+}
+
+.home-animation{animation-timing-function: ease;}
+
+@keyframes mymove {
+  from {left: 300px;}
+  to {left: 0px;}
+}
+
+
+.left-animation{
+  position: relative;
+  animation: rmove 3s ;
+}
+
+
+.left-animation{animation-timing-function: ease;}
+
+
+@keyframes rmove {
+  from {left: -300px;}
+  to {left: 0px;}
+}
+
+.top-animation{
+  position: relative;
+  animation: tmove 3s ;
+}
+
+
+.top-animation{animation-timing-function: ease;}
+
+
+@keyframes tmove {
+  from {top: -300px;}
+  to {top: 0px;}
+}
+
+.bottom-animation{
+  position: relative;
+  animation: bmove 3s ;
+}
+
+
+.bottom-animation{animation-timing-function: ease;}
+
+
+@keyframes bmove {
+  from {bottom: -300px;}
+  to {bottom: 0px;}
+}
+
+
+.home-img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.cat-img:hover{
+  /* transform: scale(1.1); */
+  border: 1px solid rgba(129, 129, 129, 0.382);
+  border-radius: 15px;
+  box-shadow: 3px 3px rgb(173, 171, 171);
+}
+h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(129, 129, 129);
+}
+.user{
+  color: darkcyan;
+  cursor: pointer;
+}
+li,a{
+  cursor: pointer;
+  color: darkcyan;
+  text-decoration-line: none;
+}
+li a:hover{
+color: rgb(4, 160, 160);
+}
+
+/* .password-toggle {
+  position: relative;
+}
+
+.password-toggle .toggle-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+} */
+
+
+
+
+
